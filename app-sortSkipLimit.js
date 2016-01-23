@@ -64,7 +64,7 @@ function queryDocument(options) {
     if ("speed" in options) {
         query.speed = { "$gte": options.speed };
     }
-    console.log(query);
+
     return query;
 
 }
